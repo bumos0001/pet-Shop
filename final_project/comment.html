@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+<title>Cat Home 意見回饋</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<style>
+			.nevigation-bar{
+				display:inline-block;
+				width:300px;
+				height:100%;
+				position:fixed;
+				background-color:#993300;
+				list-style-type:none; 
+				margin:0; 
+				padding:0;
+			}
+			*{
+				font-family:Microsoft JhengHei;
+				margin:0;
+			}
+			.nevigation-bar li:hover{
+				background-color:#ffcc99;
+			}
+			.nevigation-bar li{
+				display:block;
+				border-width:1px;
+				border-style:solid;
+				border-color:#ccc;
+			}
+			.nevigation-bar a{
+				text-decoration:none;
+				display:block;
+				padding:25px;
+				font-size:25px;
+				color:white;
+				font-weight:800;
+			}
+			.nevigation-bar a:hover{
+				color:#993300;
+				font-size:40px;
+			}
+			#logo{
+				padding:0;
+				border:0;
+				text-align:center;
+			}
+			#logo:hover{
+				background-color:#993300;
+				padding:0;
+			}
+			#logo_image{
+				position:relative;
+				width:150px;
+				padding:0;
+				top:7px;
+			}
+			#information{
+				position:fixed;
+				border:none;
+				color:white;
+				background-color:#993300;
+				bottom:0px;
+				line-height:35px;
+				
+			}
+			#information a{
+				display:inline-block;
+				padding:0;
+				font-size:30px;
+			}
+			#information img:hover{
+				width:60px;
+			}
+			#now{
+				background-color:#f8df96;
+				color:#993300;
+				font-weight:800;
+			}
+			.items{
+				display:inline-block;
+				width:84%;
+				float:right;
+				list-style-type:none;
+				font-size:20px;
+			}
+			.items tr{
+				display:block;
+				border-width:0px 0px 1px 0px; border-style:solid; border-color:#ccc;
+			}
+			.items img{
+				border: 3px groove gray;
+				width:250px;
+			}
+			span{
+				position:relative;
+				float:right;
+				right:60px;
+				font-weight:900;
+			}
+.absolute {
+		display:inline-block;
+				width:84%;
+
+				float:right;
+				list-style-type:none;
+				font-size:20px;
+
+		}
+		</style>
+	</head>
+	
+	<body>
+		<ul class="nevigation-bar">
+			<li><a href="index.html">首頁</a></li>
+			<li><a href="items.html">商品</a></li>
+			<li><a href="company_introduce.html">公司簡介</a></li>
+			<li><a href="member_introduce.html">成員介紹</a></li>
+			<li><a href="calender.html">行事曆</a></li>
+			<li><a href="finacialtable.html">財務報表</a></li>
+<li><a id="now" href="comment.html"  >意見回饋</a></li>
+			<li id="logo"><img id="logo_image" src="log_final.png"></li>
+			<li id="information">
+				<p>電話：(03) 4638800</p>
+				<p>地址: 桃園市 32003 中壢區遠東路 135 號</p>
+				<p>營業時間: 周一至周五 08:00 ～ 18:00</p>聯絡我們:
+				<a href="https://www.facebook.com/yzu.edu/" target="_black"><img src="facebook.png"></a>
+				<a href="https://www.youtube.com/channel/UCaXpMnZraaF9QECnJ04rVCA/videos" target="_blank"><img src="youtube.png"></a>
+				<a href="https://www.instagram.com/yzu_ilife/?hl=zh-tw" target="_blank"><img src="ig.jpg"></a>
+			</li>
+		</ul>
+ 
+	<form class="absolute" action="mailto:test@gmail.com?subject=測試表單內容" method="post" enctype="text/plain" class="items" >
+<fieldset>
+<legend>請問您是甚麼時候購買我們公司的貓咪?</legend>
+<input name="num" type="radio">今天</input><br>
+<input name="num" type="radio">一周前</input><br>
+<input name="num" type="radio">一個月前</input><br>
+<input name="num" type="radio">半年前</input><br>
+<input name="num" type="radio">一年前</input>
+</fieldset>
+<fieldset>
+<legend>購買方式:</legend>
+<input name="buy" type="radio">網路</input><br>
+<input name="buy" type="radio">門市</input>
+<INPUT name="address" type="text" size=20 value="輸入門市">
+</fieldset>
+
+<fieldset>
+<legend>滿意度評分</legend>
+貓咪品質:<br>
+<input name="aaa" type="radio">非常好</input><br>
+<input name="aaa" type="radio">好</input><br>
+<input name="aaa" type="radio">普通</input><br>
+<input name="aaa" type="radio">差</input><br>
+<input name="aaa" type="radio">非常差</input><br>
+
+服務態度:<br>
+<input name="bbb" type="radio">非常好</input><br>
+<input name="bbb" type="radio">好</input><br>
+<input name="bbb" type="radio">普通</input><br>
+<input name="bbb" type="radio">差</input><br>
+<input name="bbb" type="radio">非常差</input>
+</fieldset>
+
+<fieldset>
+<legend>意見欄:</legend>
+<TEXTAREA name="extra" rows="3" cols="40" wrap="off" tabindex="1"></TEXTAREA>
+</fieldset>
+
+<INPUT TYPE=SUBMIT VALUE="送出" >
+<INPUT TYPE=RESET VALUE="重新填寫">
+</form>
+
+	</body>
+</html>
+
+
+
+
+

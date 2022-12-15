@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+<title>Cat Home 財務報表</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<style>
+			.nevigation-bar{
+				display:inline-block;
+				width:300px;
+				height:100%;
+				position:fixed;
+				background-color:#993300;
+				list-style-type:none; 
+				margin:0; 
+				padding:0;
+			}
+			*{
+				font-family:Microsoft JhengHei;
+				margin:0;
+			}
+			body{
+				background-color:lightgreen;
+			}
+			.nevigation-bar li:hover{
+				background-color:#ffcc99;
+			}
+			.nevigation-bar li{
+				display:block;
+				border-width:1px;
+				border-style:solid;
+				border-color:#ccc;
+			}
+			.nevigation-bar a{
+				text-decoration:none;
+				display:block;
+				padding:25px;
+				font-size:25px;
+				color:white;
+				font-weight:800;
+			}
+			.nevigation-bar a:hover{
+				color:#993300;
+				font-size:40px;
+			}
+			#logo{
+				padding:0;
+				border:0;
+				text-align:center;
+			}
+			#logo:hover{
+				background-color:#993300;
+				padding:0;
+			}
+			#logo_image{
+				position:relative;
+				width:150px;
+				padding:0;
+				top:7px;
+			}
+			#information{
+				position:fixed;
+				border:none;
+				color:white;
+				background-color:#993300;
+				bottom:0px;
+				line-height:35px;
+				
+			}
+			#information a{
+				display:inline-block;
+				padding:0;
+				font-size:30px;
+			}
+			#information img:hover{
+				width:60px;
+			}
+			#now{
+				background-color:#f8df96;
+				color:#993300;
+				font-weight:800;
+			}
+			.frameright{
+				text-align:center;
+				width:84%;
+				height:800px;
+				float:right;
+				margin:0px auto;
+				font-size:30px;
+			}
+			tableframe{
+				display:inline-block;
+				margin:0px auto;
+			}
+			.table{
+				margin:0px auto;
+				border-collapse:collapse;
+				line-height:50px;
+				border:2px solid black;
+				background-color:#eee;
+			}
+			tr:nth-child(even){
+				border:2px solid black;
+			}
+			tr:hover{
+				background-color:white;
+			}
+			th{
+				border:2px solid black;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<ul class="nevigation-bar">
+			<li><a href="index.html">首頁</a></li>
+			<li><a href="items.html">商品</a></li>
+			<li><a href="company_introduce.html">公司簡介</a></li>
+			<li><a href="member_introduce.html">成員介紹</a></li>
+			<li><a href="calender.html">行事曆</a></li>
+			<li><a id="now" href="finacialtable.html">財務報表</a></li>
+<li><a href="comment.html">意見回饋</a></li>
+			<li id="logo"><img id="logo_image" src="log_final.png"></li>
+			<li id="information">
+				<p>電話：(03) 4638800</p>
+				<p>地址: 桃園市 32003 中壢區遠東路 135 號</p>
+				<p>營業時間: 周一至周五 08:00 ～ 18:00</p>聯絡我們:
+				<a href="https://www.facebook.com/yzu.edu/" target="_black"><img src="facebook.png"></a>
+				<a href="https://www.youtube.com/channel/UCaXpMnZraaF9QECnJ04rVCA/videos" target="_blank"><img src="youtube.png"></a>
+				<a href="https://www.instagram.com/yzu_ilife/?hl=zh-tw" target="_blank"><img src="ig.jpg"></a>
+			</li>
+		</ul>
+		<div class="frameright">
+			<div class="tableframe">
+				<table class="table"  width="500px">
+					<caption><span style="font-size:50px; font-weight:800;">財務報表</span><br>8～9月<br>桃園總部</caption>
+					<tr>
+						<th>水費</th>
+						<td>13845元</td>
+					</tr>
+					<tr>
+						<th>電費</th>
+						<td>216782元</td>
+					</tr>
+					<tr>
+						<th>員工餐費</th>
+						<td>500000元</td>
+					</tr>
+					<tr>
+						<th>貓咪飼料</th>
+						<td>800000元</td>
+					</tr>
+					<tr>
+						<th>電梯保養費</th>
+						<td>50000元</td>
+					</tr>
+					<tr>
+						<th>人力薪資</th>
+						<td>300000元</td>
+					</tr>
+					<tr>
+						<th>設備</th>
+						<td>100000元</td>
+					</tr>
+					<tr >
+						<th>稅</th>
+						<td>85428元</td>
+					</tr>
+					<tr style="border-width:0 0 5px 0;border-style: solid;border-color: black;">
+						<th>營業收入	</th>
+						<td>10000000元</td>
+					</tr>
+					<tr>
+						<th>盈餘</th>
+						<td>7933945元</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>

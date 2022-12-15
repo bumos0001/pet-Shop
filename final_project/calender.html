@@ -1,0 +1,241 @@
+﻿<!DOCTYPE html>
+<html>
+<title>Cat Home 行事曆</title>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<style>
+			.nevigation-bar{
+				display:inline-block;
+				width:300px;
+				height:100%;
+				position:fixed;
+				background-color:#993300;
+				list-style-type:none; 
+				margin:0; 
+				padding:0;
+			}
+			*{
+				font-family:Microsoft JhengHei;
+				margin:0;
+			}
+			body{
+				background-color:pink;
+			}
+			.nevigation-bar li:hover{
+				background-color:#ffcc99;
+			}
+			.nevigation-bar li{
+				display:block;
+				border-width:1px;
+				border-style:solid;
+				border-color:#ccc;
+			}
+			.nevigation-bar a{
+				text-decoration:none;
+				display:block;
+				padding:25px;
+				font-size:25px;
+				color:white;
+				font-weight:800;
+			}
+			.nevigation-bar a:hover{
+				color:#993300;
+				font-size:40px;
+			}
+			#logo{
+				padding:0;
+				border:0;
+				text-align:center;
+			}
+			#logo:hover{
+				background-color:#993300;
+				padding:0;
+			}
+			#logo_image{
+				position:relative;
+				width:150px;
+				padding:0;
+				top:7px;
+			}
+			#information{
+				position:fixed;
+				border:none;
+				color:white;
+				background-color:#993300;
+				bottom:0px;
+				line-height:35px;
+				
+			}
+			#information a{
+				display:inline-block;
+				padding:0;
+				font-size:30px;
+			}
+			#information img:hover{
+				width:60px;
+			}
+			#now{
+				background-color:#f8df96;
+				color:#993300;
+				font-weight:800;
+			}
+			.rightframe{
+				text-align:center;
+				width:84%;
+				float:right;
+			}
+			.tableframe{
+				position:relative;
+				display:inline-block;
+				top:50px;
+				background-color:white;
+				width:800px;
+				border:3px solid black;
+				height:800px;
+			}
+			.table{
+				width:800px;
+				background-color:white;
+			}
+			.table caption{
+				font-size:80px;
+			}
+			.table tr{
+				height:50px;
+			}
+			.table th, .table td{
+				width:300px;
+				border:1px solid black;
+				font-size:30px;
+			}
+			.table th{
+				font-weight:1500;
+			}
+			.table td{
+				font-weight:500;
+			}
+			#detail{
+				position:relative;
+				top:30px;
+				text-align:left;
+				font-size:40px;
+				font-weight:200;
+				line-height:60px;
+			}
+			.vacation{
+				color:white;
+				background-color:red;
+			}
+			.vacation:hover{
+				background-color:pink;
+				color:blue;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<ul class="nevigation-bar">
+			<li><a href="index.html">首頁</a></li>
+			<li><a href="items.html">商品</a></li>
+			<li><a href="company_introduce.html">公司簡介</a></li>
+			<li><a href="member_introduce.html">成員介紹</a></li>
+			<li><a id="now" href="calender.html">行事曆</a></li>
+			<li><a href="finacialtable.html">財務報表</a></li>
+<li><a href="comment.html">意見回饋</a></li>
+			<li id="logo"><img id="logo_image" src="log_final.png"></li>
+			<li id="information">
+				<p>電話：(03) 4638800</p>
+				<p>地址: 桃園市 32003 中壢區遠東路 135 號</p>
+				<p>營業時間: 周一至周五 08:00 ～ 18:00</p>聯絡我們:
+				<a href="https://www.facebook.com/yzu.edu/" target="_black"><img src="facebook.png"></a>
+				<a href="https://www.youtube.com/channel/UCaXpMnZraaF9QECnJ04rVCA/videos" target="_blank"><img src="youtube.png"></a>
+				<a href="https://www.instagram.com/yzu_ilife/?hl=zh-tw" target="_blank"><img src="ig.jpg"></a>
+			</li>
+		</ul>
+		
+
+		<div class="rightframe">
+			<div class="tableframe">
+				<table class="table" align="center" valign="center" width="400px" >
+					<caption><div>10月行事曆<br></div></caption>
+					<tr> 
+						<th>日</th>
+						<th>一</th>
+						<th>二</th>
+						<th>三</th>
+						<th>四</th>
+						<th>五</th>
+						<th>六</th>
+					</tr>
+					<tr>
+						<td> </td>
+						<td> </td>
+						<td> </td>
+						<td> </td>
+						<td> </td>
+						<td>1</td>
+						<td>2</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>4</td>
+						<td>5</td>
+						<td>6</td>
+						<td>7</td>
+						<td>8</td>
+						<td>9</td>
+					</tr>
+					<tr>
+						<td class="vacation">10</td>
+						<td>11</td>
+						<td>12</th>
+						<td>13</td>
+						<td>14</td>
+						<td class="vacation">15</td>
+						<td class="vacation">16</td>
+					</tr>
+					<tr>
+						<td class="vacation">17</td>
+						<td class="vacation">18</td>
+						<td>19</td>
+						<td>20</td>
+						<td>21</td>
+						<td>22</td>
+						<td>23</td>
+					</tr>
+					<tr>
+						<td>24</td>
+						<td>25</td>
+						<td>26</td>
+						<td class="vacation">27</td>
+						<td>28</td>
+						<td>29</td>
+						<td>30</td>
+					</tr>
+					<tr>
+						<td>31</td>
+						<td> </td>
+						<td> </td>
+						<td> </td>
+						<td> </td>
+						<td> </td>
+						<td> </td>
+					</tr>
+				</table>
+				<div id="detail">10月10號:國慶日<br>10月15號～18號:員工旅遊
+				<br>10月27號:公司聚餐</div>
+				
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</body>
+</html>
